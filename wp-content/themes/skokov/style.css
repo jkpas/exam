@@ -1,0 +1,235 @@
+h1, h2, h3, dl, dd, p, ul, fieldset, input, figure {
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-padding-start: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+*:focus {
+  outline: none; }
+
+body {
+  width: 100%;
+  font-family: "CenturyGothic" sans-serifs;
+  color: #000;
+  background-color: #ffffff; }
+
+.wrapper {
+  width: 1633px;
+  margin: 15px auto 0; }
+
+.header {
+  min-height: 310px; }
+  .header h1 {
+    text-indent: -9999px;
+    font-size: 0; }
+  .header .logo-nav {
+    min-height: 160px;
+    background-color: #f6f6f6; }
+    .header .logo-nav .logo {
+      margin: 22px 0 0 119px;
+      float: left; }
+    .header .logo-nav .header-nav {
+      margin: 49px 7.3% 0 0;
+      float: right;
+      font-family: "code light";
+      font-size: 0; }
+      .header .logo-nav .header-nav li {
+        display: inline-block;
+        height: 65px;
+        padding: 16px 10px 0;
+        margin-left: 60px; }
+        .header .logo-nav .header-nav li:first-child {
+          margin-left: 0; }
+        .header .logo-nav .header-nav li a {
+          color: #000000;
+          font-family: "Code";
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 32.004px; }
+          .header .logo-nav .header-nav li a:hover {
+            color: #c63800; }
+      .header .logo-nav .header-nav .active {
+        background-color: #ffea00;
+        padding: 25px 10px; }
+  .header .slider {
+    min-height: 150px;
+    background-image: url("img/slider-bg.png");
+    overflow: hidden; }
+    .header .slider .title {
+      height: 70px;
+      width: 320px;
+      background-color: #424146;
+      margin: 40px 0 0 119px;
+      padding: 23px 0 0 30px;
+      font-size: 21px;
+      color: #ffea00; }
+
+.content-aside-wrapper {
+  min-height: 2740px;
+  width: 1633px;
+  padding: 80px 0 77px;
+  overflow: hidden; }
+  .content-aside-wrapper .content {
+    width: 1160px;
+    float: left; }
+    .content-aside-wrapper .content .slogan {
+      width: 550px;
+      height: 70px;
+      background-color: #ffea00;
+      margin: 0 30px 30px 0;
+      padding: 5px 10px 0 45px;
+      font-style: italic;
+      font-weight: bold;
+      disply: inline-block; }
+      .content-aside-wrapper .content .slogan p {
+        width: 405px;
+        float: left;
+        font-size: 21px;
+        line-height: 28px; }
+      .content-aside-wrapper .content .slogan span {
+        float: right;
+        font-size: 11px;
+        padding-top: 45px; }
+    .content-aside-wrapper .content .post-preview {
+      width: 550px;
+      min-height: 600px;
+      background-color: #ffea00;
+      margin: 0 30px 30px 0;
+      font-family: "Myriad Pro";
+      float: left; }
+      .content-aside-wrapper .content .post-preview .post-description {
+        min-height: 220px;
+        padding: 25px; }
+        .content-aside-wrapper .content .post-preview .post-description .post-title .article_link {
+          font-size: 23px;
+          line-height: 30px;
+          text-transform: uppercase;
+          color: #000; }
+        .content-aside-wrapper .content .post-preview .post-description .post-exerpt {
+          margin-top: 20px;
+          font-size: 14px;
+          color: #5e5e5e;
+          line-height: 20px; }
+        .content-aside-wrapper .content .post-preview .post-description .post-info {
+          font-size: 12px;
+          float: right;
+          margin-right: 40px;
+          margin-top: 20px; }
+
+.sidebar {
+  width: 470px;
+  overflow: hidden; }
+  .sidebar section {
+    margin-bottom: 30px;
+    background-color: #424147;
+    padding: 35px; }
+  .sidebar h3 {
+    font-size: 20px;
+    color: #ffea00;
+    margin-bottom: 30px; }
+
+.footer {
+  color: #ffffff; }
+  .footer .about-info {
+    min-height: 500px;
+    padding: 1.83% 0;
+    background-color: #414146;
+    overflow: hidden; }
+    .footer .about-info h3 {
+      font-size: 18px;
+      margin-bottom: 25px; }
+    .footer .about-info .about-us-wrapper {
+      float: left;
+      padding: 0 0 0 7.3%;
+      background-color: #414146;
+      overflow: hidden; }
+      .footer .about-info .about-us-wrapper .about-us p {
+        font-size: 13px;
+        margin-bottom: 33px;
+        text-align: left; }
+      .footer .about-info .about-us-wrapper .about-us button {
+        height: 39px;
+        width: 122px;
+        background-color: black;
+        border: none;
+        border-bottom: 3px solid #f7e546;
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center; }
+        .footer .about-info .about-us-wrapper .about-us button:hover {
+          border: none;
+          border-top: 3px solid #f7e546; }
+      .footer .about-info .about-us-wrapper .photo-stream {
+        padding: 7.35% 0; }
+        .footer .about-info .about-us-wrapper .photo-stream ul li {
+          display: inline-block;
+          margin: 0 5px 5px 0; }
+    .footer .about-info .latest-tweets {
+      float: left;
+      padding: 0 0 0 7.3%;
+      background-color: #414146; }
+    .footer .about-info .contact-info {
+      overflow: hidden;
+      padding: 0 5% 0 7.3%;
+      background-color: #414146; }
+      .footer .about-info .contact-info ul {
+        margin-top: 20px; }
+        .footer .about-info .contact-info ul li {
+          margin-bottom: 20px;
+          color: #ffffff;
+          font-size: 13px;
+          padding-left: 10px;
+          vertical-align: top;
+          padding-top: 10px; }
+          .footer .about-info .contact-info ul li span {
+            color: #ffea00;
+            vertical-align: top; }
+          .footer .about-info .contact-info ul li:nth-child(1) {
+            list-style-image: url("../img/li-img1.png"); }
+          .footer .about-info .contact-info ul li:nth-child(2) {
+            list-style-image: url("../img/li-img2.png"); }
+          .footer .about-info .contact-info ul li:nth-child(3) {
+            list-style-image: url("../img/li-img3.png"); }
+  .footer .copyright {
+    min-width: 70px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1.6% 7.3% 0 7.3%;
+    overflow: hidden; }
+    .footer .copyright address {
+      float: left;
+      color: #ffffff;
+      font-size: 14px;
+      padding-top: 5px; }
+    .footer .copyright .footer-nav {
+      float: right;
+      font-size: 0;
+      vertical-align: top; }
+      .footer .copyright .footer-nav li {
+        display: inline-block;
+        height: 65px;
+        padding: 0 10px;
+        margin-left: 60px;
+        vertical-align: top; }
+        .footer .copyright .footer-nav li:first-child {
+          margin-left: 0; }
+        .footer .copyright .footer-nav li a {
+          color: #ffffff;
+          font-family: "Code";
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 32.004px; }
+
+/*# sourceMappingURL=style.css.map */
